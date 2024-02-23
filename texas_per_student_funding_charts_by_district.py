@@ -115,8 +115,3 @@ def update_bar_graphs(selected_districts, selected_column):
 
 # Display the dropdowns and interactive bar graph
 interact(update_bar_graphs, selected_districts=dropdown_district, selected_column=dropdown_column)
-
-!git remote add origin https://github.com/PedroSF88/Texas_Per_student_funding_charts.git
-!git branch -M main
-!git push -u origin main
-
