@@ -14,7 +14,7 @@ uploaded = files.upload()
 
 # file to df
 import io
-df1 = pd.read_csv(io.BytesIO(uploaded['2007-2022-summarized-peims-financial-data (1).csv']))
+df1 = pd.read_csv(io.BytesIO(uploaded['2007-2022-summarized-peims-financial-data.csv']))
 # Dataset is now stored in a Pandas Dataframe
 
 #rename columns to remove spaces, show df1
